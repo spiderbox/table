@@ -35,7 +35,7 @@
     "src"
   ],
   "dependencies": {
-    "@tanstack/table-core": "spiderbox/table/packages/table-core#main"
+    "@tanstack/table-core": "https://gitpkg.now.sh/spiderbox/table/packages/table-core?main"
   },
   "peerDependencies": {
     "react": ">=16",
