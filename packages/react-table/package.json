@@ -4,10 +4,10 @@
   "version": "8.5.15",
   "description": "Headless UI for building powerful tables & datagrids for React.",
   "license": "MIT",
-  "homepage": "https://github.com/tanstack/table#readme",
+  "homepage": "https://github.com/spiderbox/table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanstack/table.git"
+    "url": "git+https://github.com/spiderbox/table.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -35,7 +35,7 @@
     "src"
   ],
   "dependencies": {
-    "@tanstack/table-core": "8.5.15"
+    "@tanstack/table-core": "spiderbox/table/packages/table-core#main"
   },
   "peerDependencies": {
     "react": ">=16",
