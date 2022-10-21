@@ -302,7 +302,7 @@ export const ColumnSizing: TableFeature = {
                 e.preventDefault()
                 e.stopPropagation()
               }
-              onEnd(e.touches[0]!.clientX)
+              onEnd(e.touches[0]?.clientX)
             },
           }
 
