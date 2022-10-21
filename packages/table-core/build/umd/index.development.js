@@ -733,6 +733,8 @@
                 return false;
               },
               upHandler: e => {
+                var _e$touches$;
+
                 document.removeEventListener('touchmove', touchEvents.moveHandler);
                 document.removeEventListener('touchend', touchEvents.upHandler);
 
@@ -741,7 +743,7 @@
                   e.stopPropagation();
                 }
 
-                onEnd(e.touches[0].clientX);
+                onEnd((_e$touches$ = e.touches[0]) == null ? void 0 : _e$touches$.clientX);
               }
             };
             const passiveIfSupported = passiveEventSupported() ? {
